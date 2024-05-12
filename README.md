@@ -66,7 +66,7 @@ To get started with this project, follow these steps:
    npm install
 3. **Set up environment variables**:
    Create a .env file in the root directory of your project and add the following environment variables:
-   PORT=3000
+   PORT=3010
    MONGODB_URI=your-mongodb-uri
 4. **Start the server**:
    npm run dev
