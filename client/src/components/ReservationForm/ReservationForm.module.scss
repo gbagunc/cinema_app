@@ -1,0 +1,15 @@
+.reservationFormContainer {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    .bookBtn {
+        border: 1px solid white;
+        font-size: 1.5rem;
+        background-color: rgb(109, 109, 109);
+        color: #fff;
+        border-radius: 4rem;
+        padding: 1rem 2rem;
+    }
+}

@@ -1,0 +1,14 @@
+.loaderBlock {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    border-top-color: #3498db;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,31 @@
+.seatInfoBlock {
+    width: 30%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    .seatInfoItem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        .available {
+            width: 4rem;
+            height: 4rem;
+            background-color: transparent;
+            border: 1px solid white;
+        }
+        .booked {
+            width: 4rem;
+            height: 4rem;
+            background-color: rgb(28, 82, 43);
+            border: 1px solid white;
+        }
+        .reserved {
+            width: 4rem;
+            height: 4rem;
+            background-color: rgb(133, 83, 83);
+            border: 1px solid white;
+        }
+    }
+}

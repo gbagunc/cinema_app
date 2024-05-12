@@ -1,0 +1,17 @@
+.roomItemWrapper {
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .8rem;
+  padding-inline: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  list-style: none;
+}
+.active {
+  background-color: rgb(64, 61, 73);
+}
+
+  
