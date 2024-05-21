@@ -18,7 +18,7 @@ export const SeatItem = ({
       className={`${styles.seatBlock} 
       ${bookedNums.includes(seatNum) ? styles.activeNum : ""} 
       ${booked ? styles.booked : ""}`}
-      onClick={() => onSelectSeat(seatNum)}
+      onClick={booked ? undefined : () => onSelectSeat(seatNum)}
     >
       <span>{seatNum}</span>
     </div>

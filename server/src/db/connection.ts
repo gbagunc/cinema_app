@@ -1,9 +1,8 @@
 import mongoose from "mongoose";
-import { MONGO_URL } from "../config/constants";
 
 const connectDB = async () => {
   await mongoose
-    .connect(MONGO_URL, {
+    .connect("mongodb://localhost:27017/", {
       dbName: "cinema",
     })
     .then(() => {
